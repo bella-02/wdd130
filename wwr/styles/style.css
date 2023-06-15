@@ -179,6 +179,106 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+
+
+#rivers-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#rivers-hero-box {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;
+}
+#rivers-hero-img {
+    width: 100%;
+}
+.rivers-title {
+    color: white;
+    font-family: "Permanent Marker", "trebuchet MS", Helvetica, sans-serif;
+    font-size: 4em;
+    margin-top: 10px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+body {
+    background-color: #fefcfb;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+.salmon-img, .desolation-img, .grand-canyon-img {
+    border-style: solid;
+    border-color:#00663d;
+    border-width: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.salmon-img {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    width: 100%;
+    margin-left: 30px;;
+}
+.salmon-info {
+    grid-row: 2/3;
+}
+.salmon-info-2 {
+    grid-row: 3/4;
+}
+.desolation-img {
+    grid-column: 1/2;
+    grid-row: 6/8;
+    width: 100%;
+    margin-left: 30px;
+}
+.desolation-info {
+    grid-row: 6/7;
+}
+.desolation-info-2 {
+    grid-row: 7/8;
+}
+.grand-canyon-img {
+    grid-column: 1/2;
+    grid-row: 10/12;
+    width: 100%;
+    margin-left: 30px;
+}
+.grand-canyon-info {
+    grid-row: 10/11;
+}
+.grand-canyon-info-2 {
+    grid-row: 11/12;
+}
+.names {
+    grid-column: 1/2;
+    margin-inline-start: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: "Permanent Marker", "trebuchet MS", Helvetica, sans-serif;
+    color:#112c55
+}
+.salmon-info, .salmon-info-2, .desolation-info, .desolation-info-2, .grand-canyon-info, .grand-canyon-info-2 {
+    grid-column: 2/3;
+    font-size: 20px;
+    margin-left: 50px;
+    padding-inline: 50px;
+}
+.salmon-info, .desolation-info, .grand-canyon-info {
+    display: grid;
+    align-items:end;
+}
+.level {
+    grid-column: 1/3;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-inline-start: 30px;
+    margin-inline-end: 50px;
+    background-color: #f2d891;
+    padding: 20px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
