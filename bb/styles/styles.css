@@ -174,4 +174,62 @@ footer .social img {
   #myBtn:hover {
     background-color:#A66E50; /* Add a dark-grey background on hover */
   }
+
+
+  #hero-grid {
+    display:grid;
+    grid-template-columns: 35% 30% 35%;
+    margin: 70px;
+  }
+  .drinks {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .hero-name {
+    display:grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    align-content: center;
+    font-family: Pacifico, cursive, serif;
+    color:#F4E2C6;
+    font-size: 4em;
+  }
+  .event-background {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #F5A292;
+    z-index: -1;
+  }
+  .book-club {
+    width: 100%;
+    grid-column: 3/4;
+  }
+  .writing {
+    grid-column: 2/3;
+    width: 100%;
+    
+  }
+  .filler-square-1, .filler-square-2 {
+    background-color:#F5A292;
+  }
+  .event  {
+    background-color:#89AA8E;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 30px;
+  }
+  .event-name {
+    font-family: Pacifico, cursive, serif;
+    color:#A66E50;
+  }
+  .event-info{
+    color:#F4E2C6;
+    font-size: 25px;
+  }
+  .booking {
+    text-align: center;
+    color:#A66E50;
+  }
  
