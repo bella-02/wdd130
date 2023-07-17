@@ -28,12 +28,12 @@ nav {
     justify-content: space-around;
 }
 nav a:hover {
-    background-color: #F5A292;
+    background-color:#A66E50;
     color:#F4E2C6;
  }
  nav a {
      color: #A66E50;
-     text-align: center;
+     text-align:center;
      text-decoration: none;
      padding: 35px;
  }
@@ -68,7 +68,7 @@ nav a:hover {
     color:#F4E2C6;
 }
 .about-us, .upcoming-events, .about-us-2 {
-    background-color:#F5A292;
+    background-color:#A66E50;
     color:#F4E2C6;
     text-decoration: none;
     font-size: 25px;
@@ -78,7 +78,7 @@ nav a:hover {
 }
 .about-us:hover, .upcoming-events:hover, .about-us-2:hover {
     background-color:#F4E2C6;
-    color:#89AA8E;
+    color:#A66E50;
 }
 .home-grid {
     text-align:center;
@@ -163,7 +163,7 @@ footer .social img {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color:#F5A292; /* Set a background color */
+    background-color:#A66E50; /* Set a background color */
     color:#F4E2C6; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
@@ -199,7 +199,7 @@ footer .social img {
   .event-background {
     grid-column: 2/3;
     grid-row: 1/2;
-    background-color: #F5A292;
+    background-color:#F5A292;
     z-index: -1;
   }
   .book-club {
@@ -215,17 +215,17 @@ footer .social img {
     background-color:#F5A292;
   }
   .event  {
-    background-color:#89AA8E;
+    background-color:#F4E2C6;
     padding: 50px;
     margin: 100px;
     border-radius: 30px;
   }
   .event-name {
     font-family: Pacifico, cursive, serif;
-    color:#A66E50;
+    color:#89AA8E;
   }
   .event-info{
-    color:#F4E2C6;
+    color:#A66E50;
     font-size: 25px;
   }
   .booking {
